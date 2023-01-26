@@ -13,9 +13,7 @@ struct RecipeListView: View {
     @ObservedObject var model = RecipeModel()
     
     var body: some View {
-        
-        
-        
+
         NavigationView {
             List(model.recipes) {i in
                 
@@ -42,10 +40,7 @@ struct RecipeListView: View {
             }
             .navigationTitle("All Recipes")
         }
-        
-        
-        
-        
+   
     }
 }
 
