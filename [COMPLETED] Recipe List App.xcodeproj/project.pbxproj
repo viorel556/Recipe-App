@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F20747F297FF69D00AA6CA3 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20747E297FF69D00AA6CA3 /* RecipeTabView.swift */; };
+		1F80A85E29859DEA00DFDE24 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80A85D29859DEA00DFDE24 /* Rational.swift */; };
 		1FB4ED7329827A5900C53DD5 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4ED7229827A5900C53DD5 /* RecipeFeaturedView.swift */; };
 		1FFF3BC8297D75C6003F5692 /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3BC7297D75C6003F5692 /* Recipe_List_App.swift */; };
 		1FFF3BCA297D75C6003F5692 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF3BC9297D75C6003F5692 /* RecipeListView.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		1F20747E297FF69D00AA6CA3 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		1F80A85D29859DEA00DFDE24 /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		1FB4ED7229827A5900C53DD5 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		1FFF3BC4297D75C6003F5692 /* [COMPLETED] Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[COMPLETED] Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFF3BC7297D75C6003F5692 /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F80A85C29859DD600DFDE24 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1F80A85D29859DEA00DFDE24 /* Rational.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		1FFF3BBB297D75C6003F5692 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 				1FFF3BDA297D763F003F5692 /* Models */,
 				1FFF3BDB297D7670003F5692 /* Services */,
 				1FFF3BD8297D7633003F5692 /* Data */,
+				1F80A85C29859DD600DFDE24 /* Utilities */,
 				1FFF3BCD297D75C8003F5692 /* Preview Content */,
 			);
 			path = "Recipe List App";
@@ -201,6 +212,7 @@
 			files = (
 				1FFF3BDF297D7811003F5692 /* Recipe.swift in Sources */,
 				1F20747F297FF69D00AA6CA3 /* RecipeTabView.swift in Sources */,
+				1F80A85E29859DEA00DFDE24 /* Rational.swift in Sources */,
 				1FFF3BE7297D9560003F5692 /* RecipeDetailView.swift in Sources */,
 				1FFF3BE1297D79D1003F5692 /* RecipeModel.swift in Sources */,
 				1FFF3BCA297D75C6003F5692 /* RecipeListView.swift in Sources */,
